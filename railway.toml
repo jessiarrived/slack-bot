@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+# -u: unbuffered stdout/stderr so Railway shows startup lines (e.g. [supabase] …) before events.
+startCommand = "python -u app.py"
